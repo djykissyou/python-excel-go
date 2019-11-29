@@ -32,6 +32,6 @@ newExcle.to_excel(pathroot + '/' + sheetName + '.xlsx',header = True,index = Fal
 
 
 '''
-data = pd.read_excel('C:/Users/Administrator/Desktop/yanzheng\北云门镇全口径贫困户信息.xls',index_col='序号')
+data = pd.read_excel('C:/Users/Administrator/Desktop/yanzheng\xxx.xls',index_col='序号')
 data[(data.人数 == 2) & (data.与户主关系=="户主")]
 '''
